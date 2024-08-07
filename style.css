@@ -144,3 +144,122 @@ a:hover{
     transform: none;
 }
 
+/* Sections */
+
+section{
+    padding-top: 2vh;
+    height:20vh;
+    margin: 0 1rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    
+}
+
+.section-container{
+    display:flex;
+}
+
+/* Profile Section */
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap:4rem;
+    height: 60vh;
+}
+
+.profile_img{
+    display:flex;
+    height:350px;
+    width:350px;
+    margin: auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(20, 137, 176, 0.8);
+
+}
+
+.profile_img img{
+    height:400px;
+    width:400px;
+    object-fit: cover;
+}
+
+.section_text{
+        align-self: center;
+        text-align: center;
+}
+
+.section_text p{
+    font-weight: 650;
+}
+
+.section_text_p1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.section_text_p2{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+
+.title{
+    font-size: 4rem;
+    text-align: center;
+}
+
+#socials-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap:2rem;
+}
+
+/* ICONS */
+
+.icon{
+    cursor:pointer;
+    height:2.6rem;
+}
+
+/* Buttons */
+.btn-container{
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    border-color: white;
+}
+
+.btn{
+    font-weight: 700;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width:8rem;
+    border-radius: 2rem;
+    
+   
+}
+
+.btn-color-1:hover, .btn-color-2:hover{
+    cursor: pointer;
+}
+
+
+.btn-color-2{
+    background: rgb(0, 140, 255);
+    color: white;
+    border-color: white;
+}
+
+.btn-color-1{
+    background: rgb(226, 50, 71);
+    color: white;
+    border-color: white;
+}
+
+
+.btn-container{
+    gap:1rem;
+}
